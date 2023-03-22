@@ -1,1 +1,1 @@
-# hand_cricket_with_omputer
+# hand_cricket_with_computer
