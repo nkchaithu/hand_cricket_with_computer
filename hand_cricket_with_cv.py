@@ -212,8 +212,8 @@ if __name__ == "__main__":
     s=main()
     s2=main2()
     if s>s2:
-        print("you won by " + str(s-s2)+" runs")
-    elif s==s2:
+        print("you won by " + str((s-s2)//25)+" runs")
+    elif s//25==s2//25:
         print("draw")
     else:
-        print("you loose by "+ str(s2-s)+" runs")
+        print("you loose by "+ str((s2-s)//25)+" runs")
